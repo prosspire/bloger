@@ -14,7 +14,7 @@ import { useEditorHydrate } from "../../editor-utils/editor-hydration";
 import CodeInsertIcon from "../CodeHighlightPlugin/CodeInsertIcon";
 import NiwiEditorSideImageInsertIcon from "../NiwiImagePlugin/components/NiwiEditorSideImageInsertIcon";
 import { $isNiwiImageNode } from "../NiwiImagePlugin/nodes/NiwiImageNode";
-import NiwiLineBreakInsertIcon from "../NiwiLineBreakPlugin/components/​NiwiLineBreakInsertIcon";
+import NiwiLineBreakInsertIcon from "../NiwiLineBreakPlugin/components/NiwiLineBreakInsertIcon";
 import { $isNiwiLineBreakNode } from "../NiwiLineBreakPlugin/nodes/NiwiLineBreakNode";
 import NiwiSplashInsertIcon from "../NiwiSplashImagePlugin/components/NiwiSplashInsertIcon";
 import { $isNiwiSplashImageNode } from "../NiwiSplashImagePlugin/nodes/NiwiSplashImageNode";
