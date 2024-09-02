@@ -10,7 +10,7 @@ function page() {
       Whether you're a beginner just getting started or an experienced professional looking to expand your knowledge, you'll find valuable content and tutorials on our website. Our team of experts is dedicated to creating high-quality educational materials to help you succeed.
     </p>
     <p className="mb-4">
-      Thank you for joining us on this journey of exploration and discovery. We look forward to helping you achieve your goals and unleash your full potential in the exciting world of hardware and mechatronics!
+      Thank you for joining and added us on this journey of exploration and discovery. We look forward to helping you achieve your goals and unleash your full potential in the exciting world of hardware and mechatronics!
     </p></div>
   )
 }
