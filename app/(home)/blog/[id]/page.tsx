@@ -2,11 +2,7 @@ import React from "react";
 import { IBlog } from "@/lib/types";
 import Content from "./components/Content"
 import { SITE_URL } from "@/app/config";
-import { createServerClient } from "@supabase/ssr";
-import { createBrowserClient } from "@supabase/ssr";
-import Comments from "./components/coments/coments";
 import supabase from "@/utils/supabase/supabase";
-import { IAuthor } from "@/lib/types";
 import "react-quill/dist/quill.snow.css";
 import Navbar from "@/app/navbar/navbar";
 
