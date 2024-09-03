@@ -1,5 +1,5 @@
 import { boolean } from "zod";
-import { IBlogDetial , Icourse, IchapterDetails } from "./types";
+import { IBlogDetial  } from "./types";
 import { Coments } from "./types";
 export const blogDeafultValue = `
 ## Serendipity Chronicles: Tales from a Random Blog
@@ -91,33 +91,7 @@ export const defaultBlog: IBlogDetial = {
 	author: "",
 
 };
-export const defaultlesson: IchapterDetails = {
-	catagory_id: 1,
-	chapter_name: "",
-	content: "", 
-	image:"",
-	course_id: "",
-	created_at: "",
-	description: "", 
-	id: 0,
-	instructor: "",
-	module_id: "" ,
-	chapterno:"", 
-	slug: "", 
-	pdffiles: "",
 
-};
-
-export const defaultcourse :Icourse = {
-	banner_image: "",
-	created_at: "",
-	Catogory_id: "",
-	Description: "",
-	instructor: "", 
-    Name: "",
-	price: "",
-	slug: "",
-};
 export const defaultcoment :Coments = {
 	coment: "",
     created_at: "",

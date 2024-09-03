@@ -28,41 +28,9 @@ export type IBlogDetial = {
 	content:string;
 	author:string;
 };
-export type IchapterDetails = {
-	catagory_id: number
-	chapter_name: string | null
-	content: string | null
-	course_id: string 
-	created_at: string
-	image: string 
-	description: string | null
-	id: number
-	instructor: string
-	module_id: string 
-	chapterno:string 
-	slug: string 
-	pdffiles:string
-};
 
-export type IModule = {
-   id: number
-   created_at: string;
-   module_name: string;
-   module_description: string;
-   module_number: number;
-   course_id: string;
-   slug:string;
-};
 
-export type IModules = {
-	course_id: string;
-    created_at: string;
-    id: number;
-    module_description: string;
-    module_name: string;
-    module_number: number;
-    slug: string;
- }[];
+
 
 export type IAuthor = {
 	author: string 
@@ -76,16 +44,7 @@ export type IAuthor = {
 	twiter: string 
 	profile:string
 } ;
-export type Icourse ={
-	banner_image: string;
-	Catogory_id: string;
-	created_at: string;
-	Description: string;
-	instructor: string;
-	Name: string;
-	price: string;
-	slug:string;
-} ;
+
 export type Coments ={
 	coment: string;
     created_at: string;

@@ -18,17 +18,7 @@ export default function Blog() {
 					</Button>
 				</Link>
 			</div>
-			<div className="flex items-center pt-[100px] justify-between">
-				<h1 className="text-3xl font-bold">Course</h1>
-				<Link href="/dashboard/course">
-					<Button
-						className="flex items-center gap-2 "
-						variant="outline"
-					>
-						Course <PlusIcon />
-					</Button>
-				</Link>
-			</div>
+	
 			<div className="flex items-center pt-[100px] justify-between">
 				<h1 className="text-3xl font-bold">Images</h1>
 				<Link href="/dashboard/images">
