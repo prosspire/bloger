@@ -13,7 +13,7 @@ function page() {
     </p>
     <h2 className="text-xl font-bold mb-2">How We Use Your Information</h2>
     <p className="mb-4">
-      We use the information we collect to improve the content and functionality of our website, personalize your experience, and communicate with you about updates, promotions, and other relevant information. We may also use aggregated data for analytical purposes.
+      We use the information we collect to improve  ff the content and functionality of our website, personalize your experience, and communicate with you about updates, promotions, and other relevant information. We may also use aggregated data for analytical purposes.
     </p>
     <h2 className="text-xl font-bold mb-2">Third-Party Links</h2>
     <p className="mb-4">
